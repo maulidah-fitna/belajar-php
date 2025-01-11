@@ -12,6 +12,6 @@ var_dump(!true);
 var_dump(!false);
 
 $dewasa=true;
-var_dump()
+var_dump(false);
 
 ?>

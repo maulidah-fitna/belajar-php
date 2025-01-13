@@ -1,4 +1,5 @@
 <?php
+// Fungsi trim = untuk menghilangkan enter setelah variable
 echo "Masukkan Nama \t: ";
 $nama = trim(fgets(STDIN));
 echo "Masukkan Nilai Anda : ";
@@ -9,5 +10,4 @@ if($nilai>=80){
 }else{
     echo "Selamat, Anda Mendapatkan Praroro😜";
 }
-
 ?>

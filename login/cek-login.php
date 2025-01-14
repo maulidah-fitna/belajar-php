@@ -6,7 +6,7 @@ $_SESSION['password'] = $_POST['password'];
 $user = $_SESSION['username'];
 $pass = $_SESSION['password'];
 
-if($user == "admin" and $pass = "Nd4kt4hu"){
+if($user == "admin" and $pass == "Nd4kt4hu"){
     echo "Anda Berhasil Login";
     echo "<br>";
     echo "Username : ".$user;
